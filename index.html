@@ -28,7 +28,10 @@
   main { width: min(100%, 22rem); }
   h1 { font-size: 1.75rem; font-weight: 700; line-height: 1.2; }
   .fullname { color: var(--sub); }
-  ul { list-style: none; margin-top: 2rem; }
+  .resume { margin-top: .75rem; }
+  section { margin-top: 2rem; }
+  h2 { font-size: 1rem; font-weight: 700; color: var(--sub); }
+  ul { list-style: none; }
   a {
     color: var(--ink);
     text-decoration: underline;
@@ -46,14 +49,23 @@
   <main>
     <h1>karia</h1>
     <p class="fullname">Yoshiyuki Hisamatsu</p>
-    <ul>
-      <li><a href="https://github.com/karia" rel="me">GitHub</a></li>
-      <li><a href="https://x.com/karia2nd" rel="me">X</a></li>
-      <li><a href="https://zenn.dev/karia" rel="me">Zenn</a></li>
-      <li><a href="https://karia.hatenablog.jp/" rel="me">Hatena Blog</a></li>
-      <li><a href="https://speakerdeck.com/karia" rel="me">Speaker Deck</a></li>
-      <li><a href="https://github.com/karia/resume/blob/main/resume.md">Resume</a></li>
-    </ul>
+    <p class="resume"><a href="https://github.com/karia/resume/blob/main/resume.md">Resume</a></p>
+    <section>
+      <h2>SNS</h2>
+      <ul>
+        <li><a href="https://github.com/karia" rel="me">GitHub</a></li>
+        <li><a href="https://x.com/karia" rel="me">X @karia</a></li>
+        <li><a href="https://x.com/karia2nd" rel="me">X @karia2nd</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Writing &amp; Talks</h2>
+      <ul>
+        <li><a href="https://zenn.dev/karia" rel="me">Zenn</a></li>
+        <li><a href="https://karia.hatenablog.jp/" rel="me">Hatena Blog</a></li>
+        <li><a href="https://speakerdeck.com/karia" rel="me">Speaker Deck</a></li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
